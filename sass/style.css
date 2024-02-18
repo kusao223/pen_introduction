@@ -1,0 +1,1111 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap");
+* {
+  font-family: "Libre Baskerville", serif;
+  font-family: "Noto Serif JP", serif;
+}
+
+body {
+  background-color: #D9D9D9;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  z-index: 9999;
+}
+header .title {
+  width: 70%;
+}
+header .title-main {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+header .title-sab {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  margin-left: 2.5rem;
+}
+header .menu {
+  display: flex;
+}
+header .menu .menu-headertext {
+  text-align: right;
+  list-style: none;
+  margin-top: 1.5rem;
+  margin-left: 3rem;
+}
+
+.bgimg01 .concept_text {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  background-color: rgba(46, 46, 46, 0.6);
+  font-size: 2.5rem;
+  height: 25rem;
+  line-height: 3rem;
+  writing-mode: vertical-rl;
+  margin-top: 10rem;
+  margin-left: 15rem;
+  padding: 2rem;
+  z-index: 2;
+}
+.bgimg01 .bgimg1 {
+  width: 100%;
+  height: 100%;
+  z-index: -999;
+}
+.bgimg01 .news-block {
+  background-color: rgba(240, 240, 240, 0.652);
+  position: absolute;
+  height: 35rem;
+  width: 80rem;
+  top: 19%;
+  left: 5%;
+  right: 25%;
+  z-index: 5;
+}
+.bgimg01 .news-block-title {
+  width: 12rem;
+  margin: 1rem;
+  padding-left: 1rem;
+  font-size: 3.5rem;
+  border: solid #000 0.2rem;
+  background-color: rgba(217, 217, 217, 0.7647058824);
+}
+.bgimg01 .news-block-list {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.bgimg01 .news-block-list-text {
+  line-height: 5.5rem;
+}
+
+.wrapper {
+  position: relative;
+}
+.wrapper .block01 #topelement {
+  margin-top: -5rem;
+}
+.wrapper .block01 #bottomelement {
+  margin-top: 17rem;
+  margin-bottom: -5.5rem;
+}
+.wrapper .block01 .element01 {
+  width: 100%;
+  height: 11rem;
+  background-color: #D9D9D9;
+  transform: skewY(-6.4deg);
+}
+.wrapper .block01-textblock {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 2;
+}
+.wrapper .block01-textblock-title {
+  font-size: 3rem;
+  text-align: right;
+  writing-mode: vertical-rl;
+}
+.wrapper .block01-textblock-title-text {
+  margin-left: 5rem;
+  margin-bottom: 10rem;
+  padding: 1rem;
+  border: 3px solid #000;
+}
+.wrapper .block01-textblock-text {
+  font-size: 2rem;
+  line-height: 4rem;
+  width: 60%;
+  margin-left: 15rem;
+}
+.wrapper .block02 #topelement {
+  margin-top: -6rem;
+}
+.wrapper .block02 #bottomelement {
+  margin-top: 5rem;
+  margin-bottom: -5.5rem;
+}
+.wrapper .block02 .element02 {
+  width: 100%;
+  height: 11rem;
+  background-color: #D9D9D9;
+  transform: skewY(6.4deg);
+}
+.wrapper .block02 .ranking-title {
+  margin-top: -3rem;
+  margin-left: 2rem;
+  font-size: 3rem;
+  width: 18%;
+  padding: 0.5rem;
+  border: 0.2rem solid #000;
+}
+.wrapper .block02 .pencilranking {
+  display: flex;
+  justify-content: center;
+}
+.wrapper .block02 .pencilranking #rankingbox {
+  width: 20rem;
+  height: 35rem;
+  margin: 3.5rem;
+  margin-top: 5rem;
+  background-color: rgba(24, 24, 24, 0.4235294118);
+}
+.wrapper .block02 .pencilranking #rankingboxtop1 {
+  width: 25rem;
+  height: 40rem;
+  margin: 3.5rem;
+  margin-top: 2rem;
+  background-color: rgba(24, 24, 24, 0.4235294118);
+}
+.wrapper .block02 .pencilranking #pencilimages {
+  width: 20rem;
+  height: 25rem;
+  opacity: 0.6;
+}
+.wrapper .block02 .pencilranking #pencilimagestop1 {
+  width: 25rem;
+  height: 30rem;
+  opacity: 0.6;
+}
+.wrapper .block02 .pencilranking #pricetext {
+  width: 100%;
+  height: 10rem;
+  color: #ffffff;
+  text-align: left;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  line-height: 2.5rem;
+  font-size: 1.8rem;
+  opacity: 0.8;
+}
+.wrapper .block02 .pencilranking #pricetexttop1 {
+  width: 100%;
+  height: 10rem;
+  color: #ffffff;
+  text-align: left;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-left: 5rem;
+  line-height: 2.5rem;
+  font-size: 1.8rem;
+  opacity: 0.8;
+}
+.wrapper .block02 .pencilranking #ranking {
+  font-size: 5rem;
+  text-align: center;
+  margin-top: -2rem;
+}
+.wrapper .block03 #topelement {
+  margin-top: -6rem;
+}
+.wrapper .block03 .element02 {
+  width: 100%;
+  height: 11rem;
+  background-color: #D9D9D9;
+  transform: skewY(6.4deg);
+}
+.wrapper .newpencil {
+  position: absolute;
+  z-index: 20;
+  width: 100%;
+}
+.wrapper .newpencil #newpencil-boxes {
+  display: flex;
+  justify-content: center;
+}
+.wrapper .newpencil #newpencils {
+  width: 15rem;
+  height: 26rem;
+  margin-top: 3rem;
+  margin-left: 5rem;
+  margin-bottom: 2rem;
+  background-color: rgba(24, 24, 24, 0.4235294118);
+}
+.wrapper .newpencil #newpencilimg {
+  width: 15rem;
+  height: 17rem;
+  opacity: 0.8;
+}
+.wrapper .newpencil #newpencilprice {
+  height: 11rem;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  text-align: center;
+  color: #ffffff;
+}
+.wrapper .newpencil-title {
+  margin-top: 4rem;
+  margin-left: 2rem;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: 20%;
+  font-size: 3rem;
+  background-color: rgba(227, 224, 224, 0.4352941176);
+  border: 0.2rem solid #000;
+}
+.wrapper .newpencil .salebutton {
+  position: absolute;
+  width: 32%;
+  right: 0;
+  margin-top: 2rem;
+  margin-right: 5rem;
+  font-size: 2.5rem;
+  border: 0.2rem solid #000;
+}
+.wrapper .newpencil .salebutton-text {
+  background-color: rgba(227, 224, 224, 0.5764705882);
+  padding-left: 3rem;
+}
+.wrapper .contact {
+  position: absolute;
+  width: 100%;
+  height: 5rem;
+  background-color: #b3b1b1;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  z-index: 2;
+}
+.wrapper .contact-textbox {
+  display: table;
+  height: 15;
+}
+.wrapper .contact-textbox-text {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 2.5rem;
+  margin-right: 200px;
+  border: 0.2rem solid #000;
+}
+.wrapper .contact-textbox-sabtext {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 1.2rem;
+  text-align: left;
+  padding-left: 5rem;
+}
+
+.footer {
+  background-color: #363636;
+  width: 100%;
+  height: 11rem;
+  margin-top: 5rem;
+  justify-content: center;
+  color: #ffeeee;
+}
+.footer-box {
+  position: absolute;
+  display: flex;
+  line-height: 1.6rem;
+  margin-bottom: 2rem;
+  left: 10%;
+  bottom: 0;
+}
+.footer-box .shopname {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.footer .copy {
+  position: absolute;
+  width: 100 .footer .copy;
+  left: 40%;
+  right: 30%;
+  bottom: 0;
+  margin-bottom: 1rem;
+}
+
+#footersale {
+  height: 13rem;
+}
+
+.main {
+  text-align: center;
+}
+.main .saletitlebox {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-top: 7rem;
+  margin-left: 20rem;
+  width: 60%;
+  border: 0.2rem solid #000;
+}
+.main .saletitlebox-title {
+  font-size: 3rem;
+  margin-right: 30rem;
+}
+.main .saletitlebox-sabtitle {
+  position: absolute;
+  text-align: right;
+  font-size: 1rem;
+  right: 5%;
+  bottom: 0;
+}
+.main .menu {
+  font-size: 3rem;
+  padding-top: 12rem;
+}
+.main .menulist-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+.main .menulist-list-text {
+  cursor: pointer;
+  position: relative;
+  font-size: 2rem;
+  list-style: none;
+  margin-left: 2rem;
+}
+.main .menulist-list-text .kasen {
+  border-bottom: 0.4rem solid #000;
+}
+.main .menulist-list-text a:after {
+  content: "";
+  position: absolute;
+  bottom: -10px; /*初期位置は10px下*/
+  left: 0;
+  width: 100%;
+  height: 0.4rem;
+  background: black;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+}
+.main .menulist-list-text a:hover::after {
+  visibility: visible;
+  opacity: 1;
+  bottom: -4px;
+}
+.main .itemlist {
+  display: flex;
+  justify-content: center;
+}
+.main .itemlist-box {
+  width: 20rem;
+  height: 35rem;
+  margin-left: 5rem;
+  border: 0.2rem solid #000;
+  margin-bottom: 5rem;
+}
+.main .itemlist-box .C {
+  display: none;
+}
+.main .itemlist-box #itemlist-img {
+  width: 19.8rem;
+  height: 25rem;
+  border: 0.2rem solid #000;
+}
+.main .itemlist-box #itemlist-text {
+  height: 10rem;
+  margin-bottom: 4rem;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.salecontact {
+  width: 100%;
+  height: 5rem;
+  background-color: #b3b1b1;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  z-index: 2;
+}
+.salecontact-textbox {
+  display: table;
+  height: 15;
+}
+.salecontact-textbox-text {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 2.5rem;
+  margin-right: 200px;
+  border: 0.2rem solid #000;
+}
+.salecontact-textbox-sabtext {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 1.2rem;
+  text-align: left;
+  padding-left: 5rem;
+}
+
+.salefooter {
+  background-color: #363636;
+  width: 100%;
+  height: 12.5rem;
+  justify-content: center;
+  color: #ffeeee;
+}
+.salefooter-box {
+  display: flex;
+  line-height: 1.6rem;
+  margin-bottom: 2rem;
+}
+.salefooter-box .footerelement {
+  margin-left: 10rem;
+  width: 100%;
+}
+.salefooter-box .shopname {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.salefooter .salecopy {
+  width: 100%;
+  text-align: center;
+}
+
+.main .buyitem {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 8em;
+  padding-bottom: 4rem;
+}
+.main .buyitem #buyitem-img {
+  width: 20rem;
+  height: 25rem;
+  border: 0.2rem solid #000;
+}
+.main .buyitem #buyitem-text {
+  text-align: left;
+  padding-top: 1rem;
+  margin-left: 5%;
+  width: 110%;
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+}
+.main .buyitem .btn {
+  width: 80%;
+  height: 2.5rem;
+  margin-top: 1.5rem;
+}
+.main .buyitem .btn--orange {
+  color: #fff;
+  background-color: #aeaeae;
+  border-bottom: 5px solid #777777;
+}
+.main .buyitem .btn--orange:hover {
+  margin-top: 1.5rem;
+  color: #fff;
+  background: #b8b8b8;
+  border-bottom: 2px solid #777777;
+}
+.main .buyitem .btn--shadow {
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+.main .osusume-h2 {
+  text-align: left;
+  margin-left: 10%;
+  margin-bottom: 2.5%;
+  font-size: 2rem;
+}
+.main .osusume-list {
+  display: flex;
+  justify-content: center;
+}
+.main .osusume-list-listbox {
+  width: 13rem;
+  height: 25rem;
+  margin: 1rem;
+  margin-bottom: 2rem;
+  border: 0.2rem solid #000;
+}
+.main .osusume-list-listbox #osusume-list-box-img {
+  width: 12.5rem;
+  height: 18rem;
+}
+.main .osusume-list-listbox #osusume-list-box-text {
+  text-align: left;
+  margin-top: 0.5rem;
+}
+
+.form {
+  padding-top: 7rem;
+  padding-bottom: 5rem;
+}
+.form-item {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  text-align: left;
+}
+.form-item-label {
+  font-size: 1.3rem;
+  text-align: left;
+  width: 15%;
+}
+.form-item-textarea {
+  border: 0.1rem solid #000;
+  margin-left: 2rem;
+}
+.form-item-maintextarea {
+  resize: none;
+  margin-left: 2rem;
+  border: 0.1rem solid #000;
+  width: 15rem;
+  height: 5rem;
+}
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 40%;
+  }
+  body {
+    background-color: #D9D9D9;
+  }
+  header {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 9999;
+  }
+  header .title {
+    width: 50%;
+  }
+  header .title-main {
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+  header .title-sab {
+    font-size: 0.5rem;
+    margin-top: 0.5rem;
+    margin-left: 2.5rem;
+  }
+  header .menu {
+    display: flex;
+  }
+  header .menu .menu-headertext {
+    text-align: right;
+    list-style: none;
+    margin-top: 1.5rem;
+    margin-left: 2.5rem;
+  }
+  .bgimg01 .concept_text {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background-color: rgba(46, 46, 46, 0.6);
+    font-size: 2.5rem;
+    height: 25rem;
+    line-height: 3rem;
+    writing-mode: vertical-rl;
+    margin-top: 10rem;
+    margin-left: 15rem;
+    padding: 2rem;
+    z-index: 2;
+  }
+  .bgimg01 .bgimg1 {
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+  }
+  .bgimg01 .news-block {
+    background-color: rgba(240, 240, 240, 0.652);
+    position: absolute;
+    width: 55rem;
+    height: 21rem;
+    top: 22.3%;
+    left: 5%;
+    z-index: 5;
+  }
+  .bgimg01 .news-block-title {
+    width: 8rem;
+    margin: 1rem;
+    padding-left: 1rem;
+    font-size: 2rem;
+    border: solid #000 0.2rem;
+    background-color: rgba(217, 217, 217, 0.7647058824);
+  }
+  .bgimg01 .news-block-list {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  .bgimg01 .news-block-list-text {
+    line-height: 3rem;
+  }
+  .wrapper {
+    position: relative;
+  }
+  .wrapper .block01 #topelement {
+    margin-top: -5rem;
+  }
+  .wrapper .block01 #bottomelement {
+    margin-top: 17rem;
+    margin-bottom: -5.5rem;
+  }
+  .wrapper .block01 .element01 {
+    width: 100%;
+    height: 11rem;
+    background-color: #D9D9D9;
+    transform: skewY(-6.4deg);
+  }
+  .wrapper .block01-textblock {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 2;
+  }
+  .wrapper .block01-textblock-title {
+    font-size: 3rem;
+    text-align: right;
+    writing-mode: vertical-rl;
+  }
+  .wrapper .block01-textblock-title-text {
+    margin-left: 2rem;
+    margin-bottom: 10rem;
+    padding: 1rem;
+    border: 1px solid #000;
+  }
+  .wrapper .block01-textblock-text {
+    font-size: 2rem;
+    line-height: 4rem;
+    width: 60%;
+    margin-left: 10rem;
+  }
+  .wrapper .block02 #topelement {
+    margin-top: -6rem;
+  }
+  .wrapper .block02 #bottomelement {
+    margin-top: 5rem;
+    margin-bottom: -5.5rem;
+  }
+  .wrapper .block02 .element02 {
+    width: 100%;
+    height: 11rem;
+    background-color: #D9D9D9;
+    transform: skewY(6.4deg);
+  }
+  .wrapper .block02 .ranking-title {
+    position: absolute;
+    z-index: 30;
+    margin-top: -3rem;
+    margin-left: 2rem;
+    font-size: 3rem;
+    width: 20%;
+    padding: 0.5rem;
+    padding-left: 0.5rem;
+    border: 0.1rem solid #000;
+  }
+  .wrapper .block02 .pencilranking {
+    display: flex;
+    justify-content: center;
+  }
+  .wrapper .block02 .pencilranking #rankingbox {
+    width: 13rem;
+    height: 29rem;
+    margin: 2rem;
+    margin-top: 6.5rem;
+    background-color: rgba(24, 24, 24, 0.4235294118);
+  }
+  .wrapper .block02 .pencilranking #rankingboxtop1 {
+    width: 18rem;
+    height: 32rem;
+    margin: 2rem;
+    margin-top: 5rem;
+    background-color: rgba(24, 24, 24, 0.4235294118);
+  }
+  .wrapper .block02 .pencilranking #pencilimages {
+    width: 13rem;
+    height: 17rem;
+    opacity: 0.6;
+  }
+  .wrapper .block02 .pencilranking #pencilimagestop1 {
+    width: 18rem;
+    height: 22rem;
+    opacity: 0.6;
+  }
+  .wrapper .block02 .pencilranking #pricetext {
+    width: 100%;
+    height: 12rem;
+    color: #ffffff;
+    text-align: left;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    line-height: 2.5rem;
+    font-size: 1.8rem;
+    opacity: 0.8;
+  }
+  .wrapper .block02 .pencilranking #pricetexttop1 {
+    width: 100%;
+    height: 12rem;
+    color: #ffffff;
+    text-align: left;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    line-height: 2.5rem;
+    font-size: 1.8rem;
+    opacity: 0.8;
+  }
+  .wrapper .block02 .pencilranking #ranking {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: -2rem;
+  }
+  .wrapper .block03 #topelement {
+    margin-top: -6rem;
+  }
+  .wrapper .block03 .element02 {
+    width: 100%;
+    height: 11rem;
+    background-color: #D9D9D9;
+    transform: skewY(6.4deg);
+  }
+  .wrapper .newpencil {
+    position: absolute;
+    z-index: 20;
+    width: 100%;
+  }
+  .wrapper .newpencil #newpencil-boxes {
+    display: flex;
+    justify-content: center;
+  }
+  .wrapper .newpencil #newpencils {
+    width: 11rem;
+    height: 23rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    background-color: rgba(24, 24, 24, 0.4235294118);
+  }
+  .wrapper .newpencil #newpencilimg {
+    width: 11rem;
+    height: 12rem;
+    opacity: 0.8;
+  }
+  .wrapper .newpencil #newpencilprice {
+    height: 1rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    text-align: center;
+    color: #ffffff;
+  }
+  .wrapper .newpencil-title {
+    margin-top: 4rem;
+    margin-left: 2rem;
+    padding-left: 1.5rem;
+    width: 20%;
+    font-size: 1rem;
+    background-color: rgba(227, 224, 224, 0.4352941176);
+    border: 0.1rem solid #000;
+  }
+  .wrapper .newpencil .salebutton {
+    position: absolute;
+    width: 35%;
+    right: 0;
+    margin-top: 0.5rem;
+    margin-right: 5rem;
+    padding-left: 4rem;
+    font-size: 1.5rem;
+    border: 0.2rem solid #000;
+  }
+  .wrapper .newpencil .salebutton-text {
+    background-color: rgba(227, 224, 224, 0.5764705882);
+  }
+  .wrapper .contact {
+    position: absolute;
+    width: 100%;
+    height: 5rem;
+    background-color: #b3b1b1;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    z-index: 2;
+  }
+  .wrapper .contact-textbox {
+    display: table;
+    height: 15;
+  }
+  .wrapper .contact-textbox-text {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 2.5rem;
+    margin-right: 200px;
+    border: 0.2rem solid #000;
+  }
+  .wrapper .contact-textbox-sabtext {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 1.2rem;
+    text-align: left;
+    padding-left: 5rem;
+  }
+  .footer {
+    background-color: #363636;
+    width: 100%;
+    height: 13rem;
+    margin-top: 5rem;
+    justify-content: center;
+    color: #ffeeee;
+  }
+  .footer-box {
+    position: absolute;
+    display: flex;
+    line-height: 1.6rem;
+    margin-bottom: 4rem;
+    left: 10%;
+    bottom: 0;
+  }
+  .footer-box .shopname {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .footer-box .nav_element {
+    position: absolute;
+    width: 100%;
+  }
+  .footer-box .nav_element .footer-box-nav {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    margin-top: 6rem;
+    margin-left: 350%;
+  }
+  .footer-box .nav_element .footer-box-nav-text {
+    margin-left: 3rem;
+  }
+  .footer .copy {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 1rem;
+  }
+  #footersale {
+    height: 13rem;
+  }
+  .main {
+    text-align: center;
+  }
+  .main .saletitlebox {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+    margin-left: 13rem;
+    width: 60%;
+    border: 0.2rem solid #000;
+  }
+  .main .saletitlebox-title {
+    font-size: 3rem;
+    margin-right: 20rem;
+  }
+  .main .saletitlebox-sabtitle {
+    position: absolute;
+    text-align: right;
+    font-size: 1rem;
+    right: 5%;
+    bottom: 0;
+  }
+  .main .menu {
+    font-size: 3rem;
+    padding-top: 13rem;
+  }
+  .main .menulist-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  .main .menulist-list-text {
+    position: relative;
+    font-size: 2rem;
+    list-style: none;
+    margin-left: 2rem;
+  }
+  .main .menulist-list-text:after {
+    content: "";
+    position: absolute;
+    bottom: -10px; /*初期位置は10px下*/
+    left: 0;
+    width: 100%;
+    height: 0.4rem;
+    background: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+  }
+  .main .menulist-list-text:hover::after {
+    visibility: visible;
+    opacity: 1;
+    bottom: -4px;
+  }
+  .main .C {
+    opacity: 0.3;
+  }
+  .main .itemlist {
+    display: flex;
+    justify-content: center;
+    margin-left: -5rem;
+  }
+  .main .itemlist-box {
+    width: 13rem;
+    height: 26rem;
+    margin-left: 4rem;
+    border: 0.2rem solid #000;
+    margin-bottom: 5rem;
+  }
+  .main .itemlist-box #itemlist-img {
+    width: 12.8rem;
+    height: 15rem;
+    border: 0.2rem solid #000;
+  }
+  .main .itemlist-box #itemlist-text {
+    height: 10rem;
+    margin-bottom: 4rem;
+    font-size: 1rem;
+    text-align: left;
+  }
+  .salecontact {
+    width: 100%;
+    height: 5rem;
+    background-color: #b3b1b1;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    z-index: 2;
+  }
+  .salecontact-textbox {
+    display: table;
+    height: 15;
+  }
+  .salecontact-textbox-text {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 2.5rem;
+    margin-right: 200px;
+    border: 0.2rem solid #000;
+  }
+  .salecontact-textbox-sabtext {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 1.2rem;
+    text-align: left;
+    padding-left: 5rem;
+  }
+  .salefooter {
+    background-color: #363636;
+    width: 100%;
+    height: 12.5rem;
+    justify-content: center;
+    color: #ffeeee;
+  }
+  .salefooter-box {
+    display: flex;
+    line-height: 1.6rem;
+    margin-bottom: 2rem;
+  }
+  .salefooter-box .footerelement {
+    margin-left: 4rem;
+    width: 100%;
+  }
+  .salefooter-box .shopname {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .salefooter-box .nav_element {
+    width: 100%;
+  }
+  .salefooter-box .nav_element .footer-box-nav {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    margin-top: 6.5rem;
+    margin-left: 30%;
+  }
+  .salefooter-box .nav_element .footer-box-nav-text {
+    margin-left: 3rem;
+  }
+  .salefooter .salecopy {
+    width: 100%;
+    text-align: center;
+  }
+  .main .buyitem {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 12em;
+    padding-bottom: 4rem;
+  }
+  .main .buyitem #buyitem-img {
+    width: 20rem;
+    height: 25rem;
+    border: 0.2rem solid #000;
+  }
+  .main .buyitem #buyitem-text {
+    text-align: left;
+    padding-top: 1rem;
+    margin-left: 5%;
+    width: 110%;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+  }
+  .main .buyitem-kagobutton .btn, .main .buyitem-buybutton .btn {
+    width: 80%;
+    height: 4rem;
+    padding: 1rem;
+    padding-top: -1rem;
+    margin-top: 1rem;
+  }
+  .main .buyitem-kagobutton .btn--orange, .main .buyitem-buybutton .btn--orange {
+    color: #fff;
+    background-color: #aeaeae;
+    border-bottom: 3px solid #777777;
+  }
+  .main .buyitem-kagobutton .btn--orange:hover, .main .buyitem-buybutton .btn--orange:hover {
+    margin-top: 1rem;
+    color: #fff;
+    background: #b8b8b8;
+    border-bottom: 2px solid #777777;
+  }
+  .main .buyitem-kagobutton .btn--shadow, .main .buyitem-buybutton .btn--shadow {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  }
+  .main .osusume-h2 {
+    text-align: left;
+    margin-top: 2rem;
+    margin-left: 10%;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+  }
+  .main .osusume-list {
+    display: flex;
+    justify-content: center;
+  }
+  .main .osusume-list #mobile-none {
+    display: none;
+  }
+  .main .osusume-list-listbox {
+    width: 15rem;
+    height: 30rem;
+    margin: 1rem;
+    margin-bottom: 8rem;
+    border: 0.2rem solid #000;
+  }
+  .main .osusume-list-listbox #osusume-list-box-img {
+    width: 14.5rem;
+    height: 18rem;
+  }
+  .main .osusume-list-listbox #osusume-list-box-text {
+    text-align: left;
+    margin-top: 0.5rem;
+  }
+}/*# sourceMappingURL=style.css.map */

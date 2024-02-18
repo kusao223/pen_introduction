@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../Img/Icon.png">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"/>
+    <link rel="stylesheet" href="../sass/style.css">
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="../JavaScript/style.js"></script>
+    <title>Pencil Box</title>
+</head>
+<body>
+    <header>
+        <section id="salemaintitle" class="title">
+            <a href="../index.html">
+                <p class="title-main">Pencil Box</p>
+                <p class="title-sab">ペンシル・ボックス</p>
+            </a>
+            
+        </section>
+        <nav class="menu">
+            <li class="menu-headertext"><a href="./pages/sale.html">Sale</a></li>
+            <li class="menu-headertext"><a href="../pages/404page.html">Search</a></li>
+            <li class="menu-headertext"><a href="../pages/404page.html">Cart</a></li>
+            <li class="menu-headertext"><a href="../pages/404page.html">Contact</a></li>
+        </nav>
+    </header>
+    <div class="main">
+
+        <section class="buyitem">
+            <img id="buyitem-img" src="../Img/sale/0.03/CROSS.png" alt="pencil_list_img">
+            <article>
+                <p id="buyitem-text">CROSS<br>クラシックセチュリー&ensp;<br>0.3mm<br><br>&yen;8,800</p>
+                <form id="a">
+                    <button class="btn btn--orange btn--cubic btn--shadow" type="submit">カートに入れる</button>
+                </form>
+                <form id="b">
+                    <button class="btn btn--orange btn--cubic btn--shadow" type="submit">今すぐ購入する</button>
+                </form>
+            </article>
+        </section>
+
+        <section class="osusume">
+            <h2 class="osusume-h2">あなたへのおすすめ</h2>
+            <article class="osusume-list">
+                <div href="./sale.html" class="osusume-list-listbox">
+                    <img id="osusume-list-box-img" src="../Img/sale/0.03/rOtring.png" alt="">
+                    <p id="osusume-list-box-text">ロットリング&ensp;マルチペン<br>シルバー<br>0.3mm<br><br>&yen;6,800</p>
+                </div>
+                <div class="osusume-list-listbox">
+                    <img id="osusume-list-box-img" src="../Img/sale/0.05/STAEDTLER.png" alt="">
+                    <p id="osusume-list-box-text">STAEDTLER<br>&lpar;ステッドラー&rpar;&ensp;製図用<br>0.5mm<br><br>&yen;500</p>
+                </div>
+                <div class="osusume-list-listbox">
+                    <img id="osusume-list-box-img" src="../Img/sale/0.05/Rhodia.png" alt="">
+                    <p id="osusume-list-box-text">ロディア&ensp;スクリプト&ensp;六角形軸&ensp;アルミニウムボディ<br>0.5mm<br><br>&yen;3,000</p>
+                </div>
+                <div id="mobile-none" class="osusume-list-listbox">
+                    <img id="osusume-list-box-img" src="../Img/sale/0.07↑/Pelican.png" alt="">
+                    <p id="osusume-list-box-text">ペリカン&ensp;スーベレーン<br>ブルー<br>0.7mm<br><br>&yen;25,000</p>
+                </div>
+                <div id="mobile-none" class="osusume-list-listbox">
+                    <img id="osusume-list-box-img" src="../Img/sale/0.07↑/Cross.png" alt="">
+                    <p id="osusume-list-box-text">クロス&ensp;クラシック<br>センチュリー<br>0.7mm<br><br>&yen;15,200</p>
+                </div>
+            </article>
+            
+        </section>
+
+    </div>
+    <section class="salecontact">
+            <article class="salecontact-textbox">
+                <h2 class="salecontact-textbox-text"><a class="contact_link" href="../pages/contact.html">Contact</a></h2>
+                <p class="salecontact-textbox-sabtext">商品や、ショップに関するご質問等は、<br>左側の「Contact」リンクからお気軽にお問い合わせください。</p>
+            </article>
+            
+        </section>
+
+        <footer class="salefooter">
+        <article class="salefooter-box">
+            <div class="footerelement">
+                <h3 class="shopname">Pencil Box</h3>
+                <ul>
+                    <li>住所:福島県郡山市平田村4-10</li>
+                    <li>店舗定休日：平日</li>
+                    <li>電話番号:0120-255-255</li>
+                </ul>
+            </div>
+        </article>
+        <p class="salecopy">&copy;2023 WB34 Kadai04 R,Kusano</p>
+        
+    </footer>
+
+    <script>
+        document.getElementById('a').onsubmit = function(){ 
+    alert("カートに追加されました。");
+};
+document.getElementById('b').onsubmit = function(){ 
+    alert("住所入力ページへ移動します。と言いたいところだけど、遷移ができません(^○^)");
+    location.href = '/buy_form.html'
+};
+    </script>
+
+</body>
+</html>
